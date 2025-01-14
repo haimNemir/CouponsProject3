@@ -5,18 +5,15 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import java.util.ArrayList;
 import java.util.Date;
-import static java.lang.Thread.sleep;
 
 @Component
-public class CouponExpirationDailyJob implements Runnable {
-
-    @Autowired
+public class CouponExpirationDailyJob extends Thread {
+    @Autowired // need @Autowired here and not constructor.
     private CouponRepository couponRepository;
 
     public CouponExpirationDailyJob() {
     }
 
-//  TODO: check if when you delete coupon its deleted also the purchased coupons.
     @Override
     public void run() {
         while (true) {

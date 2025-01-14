@@ -13,21 +13,16 @@ import java.util.ArrayList;
 
 @RestController
 @RequestMapping("admin_controller")
-@CrossOrigin("*")
-public class AdminController extends ClientController{
+public class AdminController{
     private final AdminService adminService;
-    private final AdminController adminController;
 
-    public AdminController(ArrayList<String> activeTokens, AdminService adminService, AdminController adminController) {
-        super(activeTokens);
+    public AdminController(AdminService adminService) {
         this.adminService = adminService;
-        this.adminController = adminController;
     }
 
     @PostMapping("/login")
-    public String login(@RequestParam String email,@RequestParam String password) throws NotExistException, AuthorizationException {
-        adminService.login(email, password);
-        return super.createToken(adminController);
+    public boolean login(@RequestParam String email,@RequestParam String password) throws NotExistException, AuthorizationException {
+        return adminService.login(email, password);
     }
 
     @PostMapping("/add_company")

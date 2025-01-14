@@ -15,7 +15,7 @@ import java.util.ArrayList;
 import java.util.Objects;
 
 @Service
-public class AdminService implements ClientService {
+public class AdminService{
     private final CompanyRepository companyRepository;
     private final CustomerRepository customerRepository;
     private final CouponRepository couponRepository;
@@ -37,7 +37,7 @@ public class AdminService implements ClientService {
      * Add Company to the DB if there is no such Company with this name or email.
      */
     public Company addCompany(Company company) throws AlreadyExistException {
-        if (companyRepository.existsByEmailOrPassword(company.getEmail(), company.getPassword())) {
+        if (companyRepository.existsByNameOrEmail(company.getName(), company.getEmail())) {
             throw new AlreadyExistException("This Company already exist");
         } else {
             return companyRepository.save(company);

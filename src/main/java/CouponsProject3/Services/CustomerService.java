@@ -1,4 +1,5 @@
 package CouponsProject3.Services;
+
 import CouponsProject3.Beans.Coupon;
 import CouponsProject3.Beans.Customer;
 import CouponsProject3.Exceptions.*;
@@ -6,10 +7,11 @@ import CouponsProject3.Repositories.CouponRepository;
 import CouponsProject3.Repositories.CustomerRepository;
 import CouponsProject3.Utils.Category;
 import org.springframework.stereotype.Service;
+
 import java.util.*;
 
 @Service
-public class CustomerService implements ClientService {
+public class CustomerService {
     private final CouponRepository couponRepository;
     private final CustomerRepository customerRepository;
     private final CompanyService companyService;
@@ -30,8 +32,9 @@ public class CustomerService implements ClientService {
         return true;
     }
 
-//  TODO: check if in purchasing a coupon its throws all the exception and if the coupon is get -1 in the count.
-    public Coupon purchaseCoupon(Coupon coupon) throws NotExistException, OutOfStockException, ExpiredDateException, AlreadyExistException, AuthorizationException {
+    //  TODO: check if in purchasing a coupon its throws all the exception and if the coupon is get -1 in the count.
+    public Coupon purchaseCoupon(int couponId) throws NotExistException, OutOfStockException, ExpiredDateException, AlreadyExistException, AuthorizationException {
+        Coupon coupon = couponRepository.findById(couponId).orElseThrow(() -> new NotExistException("This coupon does not exist"));
         if (!couponRepository.existsById(coupon.getId())) {
             throw new NotExistException("This coupon does not exist");
         }
@@ -60,7 +63,7 @@ public class CustomerService implements ClientService {
         if (customerId == 0)
             throw new AuthorizationException("Unauthorized please login first");
         Customer connectedCustomer = customerRepository.findById(customerId).orElseThrow();
-         return new ArrayList<>(connectedCustomer.getCoupons());
+        return new ArrayList<>(connectedCustomer.getCoupons());
     }
 
     public ArrayList<Coupon> getCustomerCoupons(Category category) throws AuthorizationException {
@@ -74,13 +77,25 @@ public class CustomerService implements ClientService {
         if (customerId == 0)
             throw new AuthorizationException("Unauthorized please login first");
         Customer connectedCustomer = customerRepository.findById(customerId).orElseThrow();
-        return new ArrayList<>(connectedCustomer.getCoupons().stream().filter((coupon) -> coupon.getPrice() <= maxPrice).toList());
+        return new ArrayList<>(connectedCustomer.getCoupons().stream().filter(coupon -> coupon.getPrice() <= maxPrice).toList());
     }
 
-//    TODO: check if you need the validation of if(customerId == 0) or the filter layer handle it.
+    //    TODO: check if you need the validation of if(customerId == 0) or the filter layer handle it.
     public Customer getCustomerDetails() throws AuthorizationException {
         if (customerId == 0)
             throw new AuthorizationException("Unauthorized please login first");
         return customerRepository.findById(customerId).orElseThrow();
+    }
+
+    public List<Coupon> getAllCoupons() throws AuthorizationException {
+        if (customerId == 0)
+            throw new AuthorizationException("Unauthorized please login first");
+        return couponRepository.findAll();
+    }
+
+    public Coupon getOneCoupon(int id) throws AuthorizationException, NoSuchElementException {
+        if (customerId == 0)
+            throw new AuthorizationException("Unauthorized please login first");
+        return couponRepository.findById(id).orElseThrow(() -> new NoSuchElementException("There is no such a coupon in the inventory"));
     }
 }

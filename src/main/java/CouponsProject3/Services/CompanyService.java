@@ -15,7 +15,7 @@ import java.util.*;
 
 
 @Service
-public class CompanyService implements ClientService {
+public class CompanyService {
     private final CompanyRepository companyRepository;
     private final CouponRepository couponRepository;
     private int companyId;
@@ -48,13 +48,18 @@ public class CompanyService implements ClientService {
     }
 
     /**
-     * @param updatingCoupon gets Coupon with exist ID, cant updated ID or companyId
+     * @param newCoupon gets Coupon with exist ID, cant updated ID or companyId
      * @throws NotExistException if there is no such coupon by ID.
      */
-    public Coupon updateCoupon(Coupon updatingCoupon) throws NotExistException {
-        Coupon oldCoupon = couponRepository.findById(updatingCoupon.getId()).orElseThrow(() -> new NotExistException("This coupon does not exist"));
-        updatingCoupon.setCompany(oldCoupon.getCompany());
-        return couponRepository.save(updatingCoupon);
+    public Coupon updateCoupon(Coupon newCoupon) throws NotExistException {
+        System.out.println(newCoupon);
+        if (newCoupon.getCompany() == null || newCoupon.getStartDate() == null || newCoupon.getEndDate() == null){
+            throw new NotExistException("Error, please enter a valid values in the inputs");
+        }
+        Coupon oldCoupon = couponRepository.findById(newCoupon.getId()).orElseThrow(() -> new NotExistException("This coupon does not exist"));
+        newCoupon.setCompany(oldCoupon.getCompany());
+        newCoupon.setId(newCoupon.getId());
+        return couponRepository.save(newCoupon);
     }
 
     @Transactional // for telling Spring: this method is from INSERT/UPDATE/DELETE

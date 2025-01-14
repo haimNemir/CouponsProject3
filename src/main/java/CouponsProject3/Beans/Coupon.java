@@ -1,9 +1,12 @@
 package CouponsProject3.Beans;
 import CouponsProject3.Utils.Category;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import java.util.Date;
 import java.util.Set;
 
+
+//TODO: add unauthorized error with the current status in login layer.
 @Entity
 @Table(name = "coupon")
 public class Coupon {
@@ -22,10 +25,10 @@ public class Coupon {
     @JoinColumn(name = "company_id")// change the name of the column that connected between two tables, in phase 1 it was named like this too.
     @ManyToOne(fetch = FetchType.EAGER)// it's not make sense to add cascade.REMOVE here because we don't want when we delete coupon to delete with it the company
     private Company company;
-
-
-    @ManyToMany(mappedBy = "coupons", fetch = FetchType.EAGER)
+    @ManyToMany(mappedBy = "coupons" ,fetch = FetchType.LAZY)
+    @JsonIgnore // when java sent response to the client with Coupon he will give also "customers" list even that in the constructor he didn't initialized coupon with list of customers, and this make an endless loop because in customer have value of coupons. so @JsonIgnored prevent from java response this object.
     private Set<Customer> customers;
+
 
     public Coupon(Category category, String title, String description, Date startDate, Date endDate, int amount, double price, String image, Company company) {
         this.category = category;
@@ -42,9 +45,12 @@ public class Coupon {
     public Coupon() {
     }
 
-
     public int getId() {
         return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public Company getCompany() {

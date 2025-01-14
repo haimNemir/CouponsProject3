@@ -21,6 +21,7 @@ public class CorsFilter extends OncePerRequestFilter {
         if(request.getMethod().equals("OPTIONS")) // if the request is "preflight" send accepted and after that the client will send another request from type GET, POST...
             response.setStatus(HttpServletResponse.SC_ACCEPTED);
         else
+            // move to next filter on the chain ,and send those two params . if this the last filter he will send the request to the dispatcher, the role of the dispatcher - to sort all the request to the current controller.
             filterChain.doFilter(request, response);
     }
 }

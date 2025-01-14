@@ -9,23 +9,19 @@ import CouponsProject3.Utils.Category;
 import org.springframework.web.bind.annotation.*;
 import java.util.ArrayList;
 
-@CrossOrigin("*")
 @RestController
 @RequestMapping("company_controller")
-public class CompanyController extends ClientController{
+public class CompanyController {
     private final CompanyService companyService;
-    private final CompanyController companyController;
 
-    public CompanyController(ArrayList<String> activeTokens, CompanyService companyService, CompanyController companyController) {
-        super(activeTokens);
+    public CompanyController(CompanyService companyService) {
         this.companyService = companyService;
-        this.companyController = companyController;
     }
 
+    //++
     @PostMapping("/login")
-    public String login(@RequestParam String email, @RequestParam String password) throws NotExistException, AuthorizationException {
-        companyService.login(email, password);
-        return super.createToken(companyController);
+    public boolean login(@RequestParam String email, @RequestParam String password) throws NotExistException, AuthorizationException {
+        return companyService.login(email, password);
     }
 
     @PostMapping("/add_coupon")
@@ -49,7 +45,7 @@ public class CompanyController extends ClientController{
     }
 
     @GetMapping("/get_company_coupons_by_category")
-    public ArrayList<Coupon> getCompanyCoupons(@RequestBody Category category) throws AuthorizationException {
+    public ArrayList<Coupon> getCompanyCoupons(@RequestParam Category category) throws AuthorizationException {
         return companyService.getCompanyCoupons(category);
     }
 
@@ -58,6 +54,7 @@ public class CompanyController extends ClientController{
         return companyService.getCompanyCoupons(maxPrice);
     }
 
+    //++
     @GetMapping("/get_company_details")
     public Company getCompanyDetails() throws AuthorizationException {
         return companyService.getCompanyDetails();
