@@ -20,8 +20,8 @@ public class CorsFilter extends OncePerRequestFilter {
         response.setHeader("Access-Control-Allow-Headers", "authorization, Origin, Accept, content-type, Access-Control-Request-Method, Access-Control-Request-Headers"); // allowing here witch type of header are allowed in our app, those header are not a default headers.
         if(request.getMethod().equals("OPTIONS")) // if the request is "preflight" send accepted and after that the client will send another request from type GET, POST...
             response.setStatus(HttpServletResponse.SC_ACCEPTED);
-        else
+        else{
             // move to next filter on the chain ,and send those two params . if this the last filter he will send the request to the dispatcher, the role of the dispatcher - to sort all the request to the current controller.
-            filterChain.doFilter(request, response);
+            filterChain.doFilter(request, response);}
     }
 }

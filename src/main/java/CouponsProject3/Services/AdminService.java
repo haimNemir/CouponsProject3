@@ -27,6 +27,7 @@ public class AdminService{
     }
 
     public boolean login(String email, String password) throws NotExistException {
+//        if (Objects.equals(email, "a") && Objects.equals(password, "a")) {
         if (Objects.equals(email, "admin@admin.com") && Objects.equals(password, "admin")) {
             return true;
         }
@@ -52,6 +53,7 @@ public class AdminService{
     public Company updateCompany(Company company) throws NotExistException {
         Company companyDB = companyRepository.findById(company.getId()).orElseThrow(() -> new NotExistException("This company does not exist"));
         company.setName(companyDB.getName());
+        company.setId(companyDB.getId());
         return companyRepository.save(company);
     }
 
@@ -92,7 +94,6 @@ public class AdminService{
         } else throw new NotExistException("the customer does not exist");
     }
 
-//  TODO: need to check if really this method deleted all the purchased coupons of the customer.
     @Transactional // for telling Spring: this method is for INSERT/UPDATE/DELETE
     public boolean deleteCustomer(int customerId) throws NotExistException {
         if (customerRepository.existsById(customerId)) {

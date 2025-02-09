@@ -8,6 +8,7 @@ import CouponsProject3.Exceptions.NotExistException;
 import CouponsProject3.Repositories.CompanyRepository;
 import CouponsProject3.Repositories.CouponRepository;
 import CouponsProject3.Utils.Category;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -15,6 +16,7 @@ import java.util.*;
 
 
 @Service
+@Scope("prototype") // explain for this annotation exist in CustomerService
 public class CompanyService {
     private final CompanyRepository companyRepository;
     private final CouponRepository couponRepository;
@@ -41,9 +43,9 @@ public class CompanyService {
         // check if there is existing coupon with this title, return true if exists.
         boolean couponExists = couponRepository.findCouponsByCompanyId(coupon.getCompany().getId()).stream()
                 .anyMatch(existingCoupons -> existingCoupons.getTitle().equals(coupon.getTitle()));
-
-        if (couponExists)
+        if (couponExists){
             throw new AlreadyExistException("The coupon title already exist");
+        }
         return couponRepository.save(coupon);
     }
 
@@ -52,7 +54,6 @@ public class CompanyService {
      * @throws NotExistException if there is no such coupon by ID.
      */
     public Coupon updateCoupon(Coupon newCoupon) throws NotExistException {
-        System.out.println(newCoupon);
         if (newCoupon.getCompany() == null || newCoupon.getStartDate() == null || newCoupon.getEndDate() == null){
             throw new NotExistException("Error, please enter a valid values in the inputs");
         }
@@ -63,13 +64,12 @@ public class CompanyService {
     }
 
     @Transactional // for telling Spring: this method is from INSERT/UPDATE/DELETE
-    public boolean deleteCoupon(int couponId) {
+    public void deleteCoupon(int couponId) throws NotExistException {
         if (couponRepository.existsById(couponId)) {
             couponRepository.deletePurchasedCouponsByCoupon(couponId);
             couponRepository.deleteById(couponId);
-            return true;
-        }
-        return false;
+        } else
+            throw new NotExistException("This coupon does not exist");
     }
 
     public ArrayList<Coupon> getCompanyCoupons() throws AuthorizationException {

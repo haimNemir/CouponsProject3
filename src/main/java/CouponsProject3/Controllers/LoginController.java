@@ -62,7 +62,7 @@ public class LoginController {
         long currentDate = new Date().getTime();
         long expires = currentDate + 1_800_000; //  1_800_000 == 30 min
         String token = JWT.create()
-                .withIssuer("Coupons_company")
+                .withIssuer("Haim_coupons")
                 .withIssuedAt(Instant.ofEpochSecond(currentDate))
                 .withClaim("email", email)
                 .withClaim("role", role.toString())

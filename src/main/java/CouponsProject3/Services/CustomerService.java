@@ -6,11 +6,13 @@ import CouponsProject3.Exceptions.*;
 import CouponsProject3.Repositories.CouponRepository;
 import CouponsProject3.Repositories.CustomerRepository;
 import CouponsProject3.Utils.Category;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
 
 import java.util.*;
 
 @Service
+@Scope("prototype") // To make this class a prototype, the default scope of a Spring component is singleton. We need to set the scope to prototype to allow multiple customers to connect at the same time to the "Service" without the customerId variable being overridden by another customer.
 public class CustomerService {
     private final CouponRepository couponRepository;
     private final CustomerRepository customerRepository;
@@ -32,7 +34,6 @@ public class CustomerService {
         return true;
     }
 
-    //  TODO: check if in purchasing a coupon its throws all the exception and if the coupon is get -1 in the count.
     public Coupon purchaseCoupon(int couponId) throws NotExistException, OutOfStockException, ExpiredDateException, AlreadyExistException, AuthorizationException {
         Coupon coupon = couponRepository.findById(couponId).orElseThrow(() -> new NotExistException("This coupon does not exist"));
         if (!couponRepository.existsById(coupon.getId())) {
@@ -43,7 +44,7 @@ public class CustomerService {
         }
         Date currentDate = new Date();
         if (currentDate.after(coupon.getEndDate())) {
-            throw new ExpiredDateException("The expiration date is left!");
+            throw new ExpiredDateException("The expiration date is left");
         }
         Customer customer = customerRepository.findById(customerId).orElseThrow(() -> new NotExistException("We did not find a customer to purchase the coupon, please log in first"));
         ArrayList<Coupon> coupons = getCustomerCoupons();
@@ -60,31 +61,22 @@ public class CustomerService {
     }
 
     public ArrayList<Coupon> getCustomerCoupons() throws AuthorizationException {
-        if (customerId == 0)
-            throw new AuthorizationException("Unauthorized please login first");
-        Customer connectedCustomer = customerRepository.findById(customerId).orElseThrow();
+        Customer connectedCustomer = customerRepository.findById(customerId).orElseThrow(()->new AuthorizationException("Unauthorized please login first"));
         return new ArrayList<>(connectedCustomer.getCoupons());
     }
 
     public ArrayList<Coupon> getCustomerCoupons(Category category) throws AuthorizationException {
-        Customer connectedCustomer = customerRepository.findById(customerId).orElseThrow();
-        if (customerId == 0)
-            throw new AuthorizationException("Unauthorized please login first");
+        Customer connectedCustomer = customerRepository.findById(customerId).orElseThrow(()->new AuthorizationException("Unauthorized please login first"));
         return new ArrayList<>(connectedCustomer.getCoupons().stream().filter((coupon) -> coupon.getCategory() == category).toList());
     }
 
     public ArrayList<Coupon> getCustomerCoupons(double maxPrice) throws AuthorizationException {
-        if (customerId == 0)
-            throw new AuthorizationException("Unauthorized please login first");
-        Customer connectedCustomer = customerRepository.findById(customerId).orElseThrow();
+        Customer connectedCustomer = customerRepository.findById(customerId).orElseThrow(()->new AuthorizationException("Unauthorized please login first"));
         return new ArrayList<>(connectedCustomer.getCoupons().stream().filter(coupon -> coupon.getPrice() <= maxPrice).toList());
     }
 
-    //    TODO: check if you need the validation of if(customerId == 0) or the filter layer handle it.
     public Customer getCustomerDetails() throws AuthorizationException {
-        if (customerId == 0)
-            throw new AuthorizationException("Unauthorized please login first");
-        return customerRepository.findById(customerId).orElseThrow();
+        return customerRepository.findById(customerId).orElseThrow(()->new AuthorizationException("Unauthorized please login first"));
     }
 
     public List<Coupon> getAllCoupons() throws AuthorizationException {

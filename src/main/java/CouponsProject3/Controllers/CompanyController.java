@@ -24,31 +24,37 @@ public class CompanyController {
         return companyService.login(email, password);
     }
 
+    //++
     @PostMapping("/add_coupon")
     public Coupon addCoupon(@RequestBody Coupon coupon) throws AlreadyExistException {
         return companyService.addCoupon(coupon);
     }
 
+    //++
     @PutMapping("/update_coupon")
     public Coupon updateCoupon(@RequestBody Coupon coupon) throws NotExistException {
         return companyService.updateCoupon(coupon);
     }
 
+    //++
     @DeleteMapping("/delete_coupon")
-    public boolean deleteCoupon(@RequestParam int couponId) {
-        return companyService.deleteCoupon(couponId);
+    public void deleteCoupon(@RequestParam int couponId) throws NotExistException {
+        companyService.deleteCoupon(couponId);
     }
 
+    //++
     @GetMapping("/get_company_coupons")
     public ArrayList<Coupon> getCompanyCoupons() throws AuthorizationException {
         return companyService.getCompanyCoupons();
     }
 
+    //++
     @GetMapping("/get_company_coupons_by_category")
     public ArrayList<Coupon> getCompanyCoupons(@RequestParam Category category) throws AuthorizationException {
         return companyService.getCompanyCoupons(category);
     }
 
+    //++
     @GetMapping("/get_company_coupons_by_price")
     public ArrayList<Coupon> getCompanyCoupons(@RequestParam double maxPrice) throws AuthorizationException {
         return companyService.getCompanyCoupons(maxPrice);

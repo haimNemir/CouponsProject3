@@ -6,7 +6,7 @@ import java.util.Date;
 import java.util.Set;
 
 
-//TODO: add unauthorized error with the current status in login layer.
+
 @Entity
 @Table(name = "coupon")
 public class Coupon {
