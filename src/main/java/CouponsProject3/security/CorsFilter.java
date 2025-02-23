@@ -17,7 +17,8 @@ public class CorsFilter extends OncePerRequestFilter {
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {
         response.setHeader("Access-Control-Allow-Origin", "*"); // allow access to all origin paths like eny website in the web.
         response.setHeader("Access-Control-Allow-Methods", "OPTIONS, GET, DELETE, POST, PUT, HEAD"); // allow requests methods, OPTION - contains every other request and go with the preflight.
-        response.setHeader("Access-Control-Allow-Headers", "authorization, Origin, Accept, content-type, Access-Control-Request-Method, Access-Control-Request-Headers"); // allowing here witch type of header are allowed in our app, those header are not a default headers.
+        response.setHeader("Access-Control-Expose-Headers", "Authorization, Content-Type");
+        response.setHeader("Access-Control-Allow-Headers", "Authorization, Origin, Accept, Content-Type, Access-Control-Request-Method, Access-Control-Request-Headers"); // allowing here witch type of header are allowed in our app, those header are not a default headers.
         if(request.getMethod().equals("OPTIONS")) // if the request is "preflight" send accepted and after that the client will send another request from type GET, POST...
             response.setStatus(HttpServletResponse.SC_ACCEPTED);
         else{

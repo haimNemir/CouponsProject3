@@ -25,7 +25,7 @@ public class CreateDataInDB {
     public void startCreatingData() {
         try {
             LoginController loginController = context.getBean(LoginController.class);
-            loginController.login("admin@admin.com", "admin", "Administrator");
+            loginController.login("admin@admin.com", "admin", "Administrator", false);
             AdminService adminService = context.getBean(AdminService.class);
             try {
                 adminService.getAllCompanies().isEmpty();
@@ -193,7 +193,7 @@ public class CreateDataInDB {
                 SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd", Locale.ENGLISH);
                 for (int i = 0; i < 50; i++) {
                     Company company = adminService.getOneCompany(i + 1);
-                    loginController.login(company.getEmail(), company.getPassword(), "Company");
+                    loginController.login(company.getEmail(), company.getPassword(), "Company", false);
                     String date1 = couponStartDate[i];
                     String date2 = couponEndDate[i];
                     Date startDate = formatter.parse(date1);

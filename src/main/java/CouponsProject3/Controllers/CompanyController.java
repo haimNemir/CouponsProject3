@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.ArrayList;
 
 @RestController
-@RequestMapping("company_controller")
+@RequestMapping("/company_controller")
 public class CompanyController {
     private final CompanyService companyService;
 

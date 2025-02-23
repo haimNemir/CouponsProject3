@@ -8,10 +8,7 @@ import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 import java.io.IOException;
-import java.util.Date;
 import java.util.HashMap;
-import com.auth0.jwt.JWT;
-
 
 // + Order of the things:
 // + every request the server get, firstly go to the filter, he check if he can continue or not between the checks is to see if this request hold a token. if he can continue he goes to "Servlet dispatcher", this Object belong to spring web and his gol is to navigate every request to the current controller by request method and url.
@@ -39,16 +36,16 @@ public class JwtFilter extends OncePerRequestFilter { // + OncePerRequestFilter 
                 String existTokenInTheList = activeTokens.values().stream().filter(value -> value.equals(encodedTokenFromRequest)).findFirst().orElse("");// we create new list of the values from the HashMap, and we use stream on it to find the exist token inside the "activeTokens". // we added .orElse()- so the value that returned is string and not <Optional>.
                 //we decode the existing token from the list:
                 DecodedJWT decodedExistToken = JWT.decode(existTokenInTheList);
-//                decodedExistToken = JWT.create();
                 //Here we check what type of customer it is:
                 if (decodedTokenFromRequest.getClaim("role").asString().equals("Administrator") && request.getServletPath().startsWith("/admin_controller") || request.getServletPath().startsWith("/users/logout")) {// toString will not work here because he will return "Claim{value=Customer}" and not "Customer", and "asString()" will return the value himself of the Claim.
-                    if (decodedTokenFromRequest.getIssuer().equals(decodedExistToken.getIssuer()))
-                        filterChain.doFilter(request, response);
-                } else if (decodedTokenFromRequest.getClaim("role").asString().equals("Company") && request.getServletPath().startsWith("/company_controller") || request.getServletPath().startsWith("/users/logout")) {
                     if (decodedTokenFromRequest.getIssuer().equals(decodedExistToken.getIssuer())){
                         filterChain.doFilter(request, response);}
+                } else if (decodedTokenFromRequest.getClaim("role").asString().equals("Company") && request.getServletPath().startsWith("/company_controller") || request.getServletPath().startsWith("/users/logout")) {
+                    if (decodedTokenFromRequest.getIssuer().equals(decodedExistToken.getIssuer())) {
+                        filterChain.doFilter(request, response);
+                    }
                 } else if (decodedTokenFromRequest.getClaim("role").asString().equals("Customer") && request.getServletPath().startsWith("/customer_controller") || request.getServletPath().startsWith("/users/logout")) {
-                    if(decodedTokenFromRequest.getIssuer().equals(decodedExistToken.getIssuer())) {
+                    if (decodedTokenFromRequest.getIssuer().equals(decodedExistToken.getIssuer())) {
                         filterChain.doFilter(request, response);
                     }
                 }
@@ -66,7 +63,21 @@ public class JwtFilter extends OncePerRequestFilter { // + OncePerRequestFilter 
 
     @Override
     protected boolean shouldNotFilter(HttpServletRequest request) { // + if the client send request of login or sign in we do not filtered it, and we right away send him to ("/users") and there he will get a token
-        return request.getServletPath().startsWith("/users/login");
+        String path = request.getServletPath();
+        return path.startsWith("/users/login")
+                || path.startsWith("/public/") // Allow public path is open, for Docker.
+                || path.startsWith("/auth")
+                || path.startsWith("/swagger-ui")
+                || path.startsWith("/v3/api-docs")
+                || path.startsWith("/static/")
+                || path.startsWith("/index.html")
+                || path.startsWith("/favicon.ico")
+                || path.startsWith("/assets/")
+                || path.startsWith("/css/")   // 🔹 מאפשר טעינת קובצי CSS
+                || path.startsWith("/js/")    // 🔹 מאפשר טעינת קובצי JavaScript
+                || path.startsWith("/images/")// 🔹 מאפשר טעינת תמונות
+                || path.startsWith("/fonts/") // 🔹 מאפשר טעינת פונטים
+                || path.equals("/");          // 🔹 מאפשר גישה לשורש האתר (יכול לטעון index.html)
     }
 }
 

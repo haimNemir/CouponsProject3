@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.ArrayList;
 
 @RestController
-@RequestMapping("admin_controller")
+@RequestMapping("/admin_controller")
 public class AdminController{
     private final AdminService adminService;
 
@@ -20,7 +20,6 @@ public class AdminController{
         this.adminService = adminService;
     }
 
-    //++
     @PostMapping("/login")
     public boolean login(@RequestParam String email,@RequestParam String password) throws NotExistException, AuthorizationException {
         return adminService.login(email, password);
@@ -57,7 +56,7 @@ public class AdminController{
     }
 
     //++
-    @PostMapping("add_customer")
+    @PostMapping("/add_customer")
     public Customer addCustomer(@RequestBody Customer customer) throws AlreadyExistException {
         return adminService.addCustomer(customer);
     }

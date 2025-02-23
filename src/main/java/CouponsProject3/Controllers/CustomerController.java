@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.NoSuchElementException;
 
 @RestController
-@RequestMapping("customer_controller")
+@RequestMapping("/customer_controller")
 public class CustomerController {
     private final CustomerService customerService;
 
@@ -55,24 +55,15 @@ public class CustomerController {
 
 
     //Those methods are not part of the instructions:
-    //++
     //To show the customer all the coupons:
     @GetMapping("/get_all_coupons")
     public ArrayList<Coupon> getAllCoupons() throws AuthorizationException {
         return new ArrayList<>(customerService.getAllCoupons());
     }
-
     //++
     //To get couponDetails by id:
     @GetMapping("/get_one_coupon")
     public Coupon getOneCoupon(@RequestParam int id) throws AuthorizationException, NoSuchElementException {
         return customerService.getOneCoupon(id);
     }
-
-//    //to allowing user witch is the most expensive coupon, for InputSlider:
-//    @GetMapping("/get_expensive")
-//    public int getExpensive(){
-//        return customerService.getMostExpensive
-//    }
-
 }
