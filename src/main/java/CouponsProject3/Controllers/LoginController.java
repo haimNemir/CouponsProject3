@@ -80,9 +80,7 @@ public class LoginController {
                 .sign(Algorithm.none());// + the number after the name of the algorithm is defined the size of the characters in the encryption, as big so hard to crack. now there is unencrypted.
         // + GWT.io - search in google to decode the encryption of the token.
         activeTokens.put(emailKeyForList, token);
-//        TODO: every request for the server the expire time need to get 30 more minutes.
 //        TODO: you can use object: "ScheduledExecutorService" to remove expired tokens.
-        //TODO: check if remember me and expired time works
         return token;
     }
 

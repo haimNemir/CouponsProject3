@@ -1,4 +1,6 @@
 package CouponsProject3.security;
+import CouponsProject3.Controllers.LoginController;
+import CouponsProject3.Utils.ClientType;
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.interfaces.DecodedJWT;
 import jakarta.servlet.FilterChain;
@@ -8,6 +10,7 @@ import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 import java.io.IOException;
+import java.util.Date;
 import java.util.HashMap;
 
 // + Order of the things:
