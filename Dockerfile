@@ -6,7 +6,7 @@ WORKDIR /app
 # after defined the folder the image will be save at, we ask him to COPY the JAR and paste it in "/app"
 #COPY ./target/CouponsProject3-0.0.1-SNAPSHOT.jar /app // original..
 #for local docker running:
-COPY ./target/CouponsProject3-0.0.1-SNAPSHOT.jar /app/app.jar
+COPY /CouponsProject3-0.0.1-SNAPSHOT.jar /app/app.jar
 #For Server running:
 #COPY CouponsProject3-0.0.1-SNAPSHOT.jar /app/app.jar
 #tell on witch port the connection will run

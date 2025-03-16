@@ -32,3 +32,4 @@ public class Main {
 //TODO: 4/10 - add button of search coupons
 // i was changed the url of the controllers endpoints check if then still works
 //TODO: 10/10 - when your refresh the page inside the app we return unauthorized even you have a token.
+//TODO: 5/10 - work on CreateDataInDB, clean this class, make the values saved in random and not hard coded.

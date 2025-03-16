@@ -3,11 +3,11 @@ package CouponsProject3.Utils;
 import CouponsProject3.Beans.Company;
 import CouponsProject3.Beans.Coupon;
 import CouponsProject3.Beans.Customer;
-import CouponsProject3.Controllers.LoginController;
 import CouponsProject3.Exceptions.*;
 import CouponsProject3.Services.AdminService;
 import CouponsProject3.Services.CompanyService;
 import CouponsProject3.Services.CustomerService;
+import CouponsProject3.Services.LoginService;
 import org.springframework.context.ApplicationContext;
 
 import java.text.ParseException;
@@ -24,8 +24,8 @@ public class CreateDataInDB {
 
     public void startCreatingData() {
         try {
-            LoginController loginController = context.getBean(LoginController.class);
-            loginController.login("admin@admin.com", "admin", "Administrator", false);
+            LoginService loginService = context.getBean(LoginService.class);
+            loginService.login("admin@admin.com", "admin", "Administrator", false);
             AdminService adminService = context.getBean(AdminService.class);
             try {
                 adminService.getAllCompanies().isEmpty();
@@ -193,7 +193,7 @@ public class CreateDataInDB {
                 SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd", Locale.ENGLISH);
                 for (int i = 0; i < 50; i++) {
                     Company company = adminService.getOneCompany(i + 1);
-                    loginController.login(company.getEmail(), company.getPassword(), "Company", false);
+                    loginService.login(company.getEmail(), company.getPassword(), "Company", false);
                     String date1 = couponStartDate[i];
                     String date2 = couponEndDate[i];
                     Date startDate = formatter.parse(date1);

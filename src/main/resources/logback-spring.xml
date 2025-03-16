@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The purpose of this file is for saving loges of "ERROR/INFO/DEBUG" inside this file, you can access them with command: "cat /app/logs/application.log" to see the all logs or enter: "tail -f /app/logs/application.log" to see logs in runtime -->
+<configuration>
+
+    <!-- RollingFileAppender for INFO+ logs (ONLY for your LoginController) -->
+    <appender name="INFO_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- קובץ הלוג הנוכחי -->
+        <file>../../../logs/info.log</file>
+
+        <!-- הגדרת המדיניות לגלגול (רוטציה) לפי זמן וגודל -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <!-- fileNamePattern עם תבנית חודש + אינדקס (%i) למקרה של חריגה בגודל -->
+            <fileNamePattern>logs/info.%d{yyyy-MM}-%i.log</fileNamePattern>
+
+            <!-- גודל מקסימלי לפני יצירת קובץ חדש -->
+            <maxFileSize>1MB</maxFileSize>
+
+            <!-- שמירת היסטוריה של 1 חודש (כלומר, נשמור את הקבצים של החודש הנוכחי + החודש הקודם) -->
+            <maxHistory>20</maxHistory>
+        </rollingPolicy>
+
+        <!-- רק לוגים >= INFO -->
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>INFO</level>
+        </filter>
+
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%level] %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- RollingFileAppender for DEBUG+ logs (כל השרת, כולל ספריות חיצוניות) -->
+    <appender name="DEBUG_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- קובץ הלוג הנוכחי -->
+        <file>logs/debug.log</file>
+
+        <!-- רוטציה חודשית + מגבלת גודל 50MB -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>logs/debug.%d{yyyy-MM}-%i.log</fileNamePattern>
+            <maxFileSize>3MB</maxFileSize>
+            <maxHistory>3</maxHistory>
+        </rollingPolicy>
+
+        <!-- לוגים >= DEBUG -->
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>DEBUG</level>
+        </filter>
+
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%level] %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Logger ספציפי למחלקה שלך (LoginController) ברמת INFO, נכתב רק ל-INFO_FILE -->
+    <logger name="CouponsProject3.Controllers.LoginController" level="INFO" additivity="false">
+        <appender-ref ref="INFO_FILE" />
+    </logger>
+
+    <!-- Root logger ברמת DEBUG, כל השאר נכתבים ל-DEBUG_FILE -->
+    <root level="DEBUG">
+        <appender-ref ref="DEBUG_FILE" />
+    </root>
+
+</configuration>

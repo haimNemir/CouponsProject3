@@ -1,0 +1,931 @@
+2025-03-10 17:22:04 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-10T17:22:04.546085
+
+
+2025-03-10 17:22:12 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-10T17:22:12.868319200
+
+
+2025-03-10 17:25:34 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-10T17:25:34.742541800
+
+
+2025-03-10 17:25:44 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-10T17:25:44.118548300
+
+
+2025-03-10 18:46:35 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-10T18:46:35.478767100
+
+
+2025-03-10 18:47:29 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-10T18:47:29.969444800
+
+
+2025-03-10 18:51:57 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-10T18:51:57.191155600
+
+
+2025-03-10 19:02:55 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-10T19:02:55.392528900
+
+
+2025-03-10 19:11:29 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-10T19:11:29.844156100
+
+
+2025-03-10 19:12:00 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-10T19:12:00.784168
+
+
+2025-03-10 19:19:28 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-10T19:19:28.622885400
+
+
+2025-03-10 19:21:38 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-10T19:21:38.809551400
+
+
+2025-03-10 19:23:04 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-10T19:23:04.532258700
+
+
+2025-03-10 19:23:12 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-10T19:23:12.292659800
+
+
+2025-03-10 19:37:57 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-10T19:37:57.284554100
+
+
+2025-03-10 19:38:06 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-10T19:38:06.701238500
+
+
+2025-03-10 19:39:27 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-10T19:39:27.871217
+
+
+2025-03-10 19:39:39 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-10T19:39:39.877857500
+
+
+2025-03-10 19:40:49 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-10T19:40:49.302566400
+
+
+2025-03-10 19:53:29 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-10T19:53:29.944226800
+
+
+2025-03-10 19:53:48 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-10T19:53:48.797619700
+
+
+2025-03-10 19:54:37 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-10T19:54:37.666164900
+
+
+2025-03-10 19:55:14 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-10T19:55:14.473867900
+
+
+2025-03-10 21:25:01 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-10T21:25:01.202656900
+
+
+2025-03-10 21:25:19 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-10T21:25:19.582037200
+
+
+2025-03-10 21:26:37 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-10T21:26:37.041348600
+
+
+2025-03-10 21:28:51 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-10T21:28:51.271858
+
+
+2025-03-10 21:29:16 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-10T21:29:16.237957300
+
+
+2025-03-11 10:52:00 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3001/ 
+LoginTime: 2025-03-11T10:52:00.031691100
+
+
+2025-03-11 10:56:54 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3001/ 
+LoginTime: 2025-03-11T10:56:54.904337
+
+
+2025-03-11 20:46:46 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-11T20:46:46.072925400
+
+
+2025-03-11 21:01:56 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-11T21:01:56.695904100
+
+
+2025-03-11 21:03:03 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-11T21:03:03.308635
+
+
+2025-03-11 21:03:55 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-11T21:03:55.897339700
+
+
+2025-03-11 21:05:38 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-11T21:05:38.670727400
+
+
+2025-03-11 21:05:45 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-11T21:05:45.705403400
+
+
+2025-03-11 21:06:03 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-11T21:06:03.678377600
+
+
+2025-03-11 21:06:09 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-11T21:06:09.855518700
+
+
+2025-03-11 21:07:00 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-11T21:07:00.125162100
+
+
+2025-03-11 21:10:53 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-11T21:10:53.472317100
+
+
+2025-03-11 21:11:03 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-11T21:11:03.514763
+
+
+2025-03-11 21:13:58 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-11T21:13:58.507510200
+
+
+2025-03-11 21:14:12 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-11T21:14:12.135727600
+
+
+2025-03-11 21:21:43 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-11T21:21:43.272898900
+
+
+2025-03-11 21:21:51 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-11T21:21:51.461764300
+
+
+2025-03-11 21:22:26 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-11T21:22:26.896146300
+
+
+2025-03-11 21:28:39 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-11T21:28:39.946743600
+
+
+2025-03-11 21:28:47 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-11T21:28:47.866439200
+
+
+2025-03-11 21:38:01 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-11T21:38:01.273168700
+
+
+2025-03-11 21:54:04 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-11T21:54:04.330774500
+
+
+2025-03-11 22:05:10 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-11T22:05:10.988371900
+
+
+2025-03-11 22:05:49 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-11T22:05:49.526181400
+
+
+2025-03-11 22:23:57 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-11T22:23:57.380785700
+
+
+2025-03-11 22:29:20 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-11T22:29:20.140056
+
+
+2025-03-12 06:17:06 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-12T06:17:06.164399300
+
+
+2025-03-12 06:24:25 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-12T06:24:25.393330600
+
+
+2025-03-12 06:36:30 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-12T06:36:30.467498200
+
+
+2025-03-12 06:36:42 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-12T06:36:42.485165300
+
+
+2025-03-12 06:38:16 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-12T06:38:16.385337900
+
+
+2025-03-12 06:38:38 [INFO] C.Controllers.LoginController - User logged in 
+IP: 0:0:0:0:0:0:0:1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-12T06:38:38.168970700
+
+
+2025-03-12 07:21:22 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-12T07:21:22.089729400
+
+
+2025-03-12 07:28:06 [INFO] C.Controllers.LoginController - User logged in 
+IP: 0:0:0:0:0:0:0:1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-12T07:28:06.139071400
+
+
+2025-03-12 07:34:08 [INFO] C.Controllers.LoginController - User logged in 
+IP: 0:0:0:0:0:0:0:1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-12T07:34:08.527447100
+
+
+2025-03-12 07:35:30 [INFO] C.Controllers.LoginController - User logged in 
+IP: 0:0:0:0:0:0:0:1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-12T07:35:30.586988600
+
+
+2025-03-12 07:42:33 [INFO] C.Controllers.LoginController - User logged in 
+IP: 0:0:0:0:0:0:0:1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-12T07:42:33.682491600
+
+
+2025-03-12 07:43:02 [INFO] C.Controllers.LoginController - User logged in 
+IP: 0:0:0:0:0:0:0:1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-12T07:43:02.945203900
+
+
+2025-03-12 07:47:57 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-12T07:47:57.269718200
+
+
+2025-03-12 08:32:12 [INFO] C.Controllers.LoginController - User logged in 
+IP: 0:0:0:0:0:0:0:1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-12T08:32:12.925027100
+
+
+2025-03-12 08:32:21 [INFO] C.Controllers.LoginController - User logged in 
+IP: 0:0:0:0:0:0:0:1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-12T08:32:21.891994700
+
+
+2025-03-12 08:32:34 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-12T08:32:34.375874900
+
+
+2025-03-12 09:32:01 [INFO] C.Controllers.LoginController - User logged in 
+IP: 0:0:0:0:0:0:0:1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-12T09:32:01.004610400
+
+
+2025-03-12 10:10:32 [INFO] C.Controllers.LoginController - User logged in 
+IP: 0:0:0:0:0:0:0:1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-12T10:10:32.076197100
+
+
+2025-03-12 10:11:29 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-12T10:11:29.203735200
+
+
+2025-03-12 10:40:07 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-12T10:40:07.327878500
+
+
+2025-03-12 10:40:47 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-12T10:40:47.366104600
+
+
+2025-03-12 10:42:00 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-12T10:42:00.065020900
+
+
+2025-03-12 10:47:06 [INFO] C.Controllers.LoginController - User logged in 
+IP: 0:0:0:0:0:0:0:1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-12T10:47:06.459023700
+
+
+2025-03-12 11:05:08 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-12T11:05:08.201116400
+
+
+2025-03-12 11:05:31 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-12T11:05:31.257109800
+
+
+2025-03-12 11:23:11 [INFO] C.Controllers.LoginController - User logged in 
+IP: 0:0:0:0:0:0:0:1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-12T11:23:11.852965800
+
+
+2025-03-12 11:52:37 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-12T11:52:37.565761
+
+
+2025-03-12 12:25:06 [INFO] C.Controllers.LoginController - User logged in 
+IP: 0:0:0:0:0:0:0:1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-12T12:25:06.898728500
+
+
+2025-03-12 12:31:14 [INFO] C.Controllers.LoginController - User logged in 
+IP: 0:0:0:0:0:0:0:1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-12T12:31:14.553106600
+
+
+2025-03-12 12:34:12 [INFO] C.Controllers.LoginController - User logged in 
+IP: 0:0:0:0:0:0:0:1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-12T12:34:12.480593
+
+
+2025-03-12 13:00:00 [INFO] C.Controllers.LoginController - User logged in 
+IP: 0:0:0:0:0:0:0:1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-12T13:00:00.266057900
+
+
+2025-03-12 13:37:34 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-12T13:37:34.491703
+
+
+2025-03-12 15:17:16 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-12T15:17:16.506690800
+
+
+2025-03-12 16:07:58 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-12T16:07:58.742512700
+
+
+2025-03-12 16:08:10 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-12T16:08:10.360914700
+
+
+2025-03-12 16:08:22 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-12T16:08:22.608842300
+
+
+2025-03-12 16:54:11 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-12T16:54:11.140794
+
+
+2025-03-12 17:15:58 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-12T17:15:58.553334500
+
+
+2025-03-12 17:17:09 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-12T17:17:09.564633200
+
+
+2025-03-12 23:15:14 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-12T23:15:14.900966300
+
+
+2025-03-12 23:54:03 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-12T23:54:03.468295400
+
+
+2025-03-13 00:24:51 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-13T00:24:51.151267200
+
+
+2025-03-13 12:49:19 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-13T12:49:19.768018400
+
+
+2025-03-13 18:56:24 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-13T18:56:24.953226900
+
+
+2025-03-13 19:07:32 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-13T19:07:32.696761400
+
+
+2025-03-13 22:17:00 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-13T22:17:00.348247200
+
+
+2025-03-13 22:17:01 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-13T22:17:01.948827500
+
+
+2025-03-13 22:48:44 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-13T22:48:44.438560500
+
+
+2025-03-13 22:52:48 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-13T22:52:48.116398200
+
+
+2025-03-13 23:31:21 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-13T23:31:21.642066700
+
+
+2025-03-14 00:04:17 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-14T00:04:17.356295400
+
+
+2025-03-14 00:50:34 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-14T00:50:34.113747400
+
+
+2025-03-14 01:21:32 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-14T01:21:32.349960700
+
+
+2025-03-14 01:59:33 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-14T01:59:33.567547700
+
+
+2025-03-14 02:25:48 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-14T02:25:48.362494500
+
+
+2025-03-14 02:26:21 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-14T02:26:21.399569700
+
+
+2025-03-14 02:27:10 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-14T02:27:10.225854200
+
+
+2025-03-14 02:27:43 [INFO] C.Controllers.LoginController - User logged in 
+IP: 0:0:0:0:0:0:0:1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-14T02:27:43.895408600
+
+
+2025-03-14 02:58:30 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-14T02:58:30.541422400
+
+
+2025-03-14 03:50:22 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-14T03:50:22.671777400
+
+
+2025-03-14 03:56:25 [INFO] C.Controllers.LoginController - User logged in 
+IP: 0:0:0:0:0:0:0:1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-14T03:56:25.549570700
+
+
+2025-03-14 04:26:46 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-14T04:26:46.352862300
+
+
+2025-03-14 05:05:53 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-14T05:05:53.478308
+
+
+2025-03-14 05:12:23 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-14T05:12:23.351940400
+
+
+2025-03-14 05:12:39 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-14T05:12:39.551697400
+
+
+2025-03-14 05:24:43 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-14T05:24:43.801725300
+
+
+2025-03-14 05:43:14 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-14T05:43:14.967543400
+
+
+2025-03-14 05:46:30 [INFO] C.Controllers.LoginController - User logged in 
+IP: 0:0:0:0:0:0:0:1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-14T05:46:30.596592200
+
+
+2025-03-15 22:58:36 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-15T22:58:36.668623600
+
+
+2025-03-15 22:59:16 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-15T22:59:16.418754800
+
+
+2025-03-15 23:04:26 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-15T23:04:26.559510700
+
+
+2025-03-15 23:06:01 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-15T23:06:01.135230500
+
+
+2025-03-15 23:38:57 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-15T23:38:57.921357900
+
+
+2025-03-16 00:45:21 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-16T00:45:21.034807200
+
+
+2025-03-16 02:57:16 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-16T02:57:16.414715300
+
+
+2025-03-16 04:18:12 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-16T04:18:12.444596600
+
+
+2025-03-16 04:21:57 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-16T04:21:57.921337600
+
+
+2025-03-16 04:22:12 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-16T04:22:12.019783100
+
+
+2025-03-16 04:27:45 [INFO] C.Controllers.LoginController - User logged in 
+IP: 0:0:0:0:0:0:0:1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-16T04:27:45.029447700
+
+

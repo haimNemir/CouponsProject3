@@ -1,6 +1,4 @@
 package CouponsProject3.security;
-import CouponsProject3.Controllers.LoginController;
-import CouponsProject3.Utils.ClientType;
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.interfaces.DecodedJWT;
 import jakarta.servlet.FilterChain;
@@ -10,7 +8,6 @@ import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 import java.io.IOException;
-import java.util.Date;
 import java.util.HashMap;
 
 // + Order of the things:
@@ -40,6 +37,7 @@ public class JwtFilter extends OncePerRequestFilter { // + OncePerRequestFilter 
                 //we decode the existing token from the list:
                 DecodedJWT decodedExistToken = JWT.decode(existTokenInTheList);
                 //Here we check what type of customer it is:
+                //TODO: the logic here is broken, fix the if() below.
                 if (decodedTokenFromRequest.getClaim("role").asString().equals("Administrator") && request.getServletPath().startsWith("/admin_controller") || request.getServletPath().startsWith("/users/logout")) {// toString will not work here because he will return "Claim{value=Customer}" and not "Customer", and "asString()" will return the value himself of the Claim.
                     if (decodedTokenFromRequest.getIssuer().equals(decodedExistToken.getIssuer())){
                         filterChain.doFilter(request, response);}
@@ -76,11 +74,11 @@ public class JwtFilter extends OncePerRequestFilter { // + OncePerRequestFilter 
                 || path.startsWith("/index.html")
                 || path.startsWith("/favicon.ico")
                 || path.startsWith("/assets/")
-                || path.startsWith("/css/")   // 🔹 מאפשר טעינת קובצי CSS
-                || path.startsWith("/js/")    // 🔹 מאפשר טעינת קובצי JavaScript
-                || path.startsWith("/images/")// 🔹 מאפשר טעינת תמונות
-                || path.startsWith("/fonts/") // 🔹 מאפשר טעינת פונטים
-                || path.equals("/");          // 🔹 מאפשר גישה לשורש האתר (יכול לטעון index.html)
+                || path.startsWith("/css/")
+                || path.startsWith("/js/")
+                || path.startsWith("/images/")
+                || path.startsWith("/fonts/")
+                || path.equals("/");
     }
 }
 
