@@ -5,7 +5,7 @@
     <!-- RollingFileAppender for INFO+ logs (ONLY for your LoginController) -->
     <appender name="INFO_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <!-- קובץ הלוג הנוכחי -->
-        <file>../../../logs/info.log</file>
+        <file>../logs/info.log</file>
 
         <!-- הגדרת המדיניות לגלגול (רוטציה) לפי זמן וגודל -->
         <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
@@ -32,7 +32,7 @@
     <!-- RollingFileAppender for DEBUG+ logs (כל השרת, כולל ספריות חיצוניות) -->
     <appender name="DEBUG_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <!-- קובץ הלוג הנוכחי -->
-        <file>logs/debug.log</file>
+        <file>../logs/debug.log</file>
 
         <!-- רוטציה חודשית + מגבלת גודל 50MB -->
         <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">

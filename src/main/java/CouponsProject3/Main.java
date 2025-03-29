@@ -26,10 +26,7 @@ public class Main {
         return new HashMap<>();
     }
 }
-//TODO: 1/10 - add AD to your app.
-//TODO: 1/10 - add message in the home page about that the website using cookies.
 //TODO: 1/10 - remove from all input from the clients a wight space for avoiding exceptions when the client try to enter password or email and thing about all the relevant inputs
 //TODO: 4/10 - add button of search coupons
-// i was changed the url of the controllers endpoints check if then still works
-//TODO: 10/10 - when your refresh the page inside the app we return unauthorized even you have a token.
 //TODO: 5/10 - work on CreateDataInDB, clean this class, make the values saved in random and not hard coded.
+//TODO: 10/10 - understand what is the error of starvation i getting from the console here.
