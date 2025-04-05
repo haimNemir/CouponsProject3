@@ -1,0 +1,70 @@
+2025-03-28 09:48:31 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-28T09:48:31.033994
+
+
+2025-03-28 09:53:21 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-28T09:53:21.119654200
+
+
+2025-03-28 09:55:36 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-28T09:55:36.265396600
+
+
+2025-03-28 09:56:04 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-28T09:56:04.939148900
+
+
+2025-03-28 10:29:51 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:8080/swagger-ui/index.html 
+LoginTime: 2025-03-28T10:29:51.117897
+
+
+2025-03-28 10:31:34 [INFO] C.Controllers.LoginController - User logged in 
+IP: 0:0:0:0:0:0:0:1 
+Agent: PostmanRuntime/7.43.0 
+Referrer: null 
+LoginTime: 2025-03-28T10:31:34.622370900
+
+
+2025-03-28 10:36:31 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-28T10:36:31.791872500
+
+
+2025-03-29 07:33:54 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-29T07:33:54.914585800
+
+
+2025-03-29 08:15:52 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-29T08:15:52.836077800
+
+
+2025-03-29 12:31:38 [INFO] C.Controllers.LoginController - User logged in 
+IP: 127.0.0.1 
+Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0 
+Referrer: http://localhost:3000/ 
+LoginTime: 2025-03-29T12:31:38.542646600
+
+
