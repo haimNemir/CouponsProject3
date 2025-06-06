@@ -18,6 +18,7 @@ public class Main {
         CreateDataInDB createDataInDB = new CreateDataInDB(context);
         createDataInDB.startCreatingData();
         System.out.println("App started");
+
     }
 
     //active token list available for the entire app:

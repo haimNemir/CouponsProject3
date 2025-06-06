@@ -5,7 +5,7 @@
     <!-- RollingFileAppender for INFO+ logs (ONLY for your LoginController) -->
     <appender name="INFO_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <!-- קובץ הלוג הנוכחי -->
-        <file>../logs/info.log</file>
+        <file>../../../logs/info.log</file>
 
         <!-- הגדרת המדיניות לגלגול (רוטציה) לפי זמן וגודל -->
         <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
