@@ -64,8 +64,9 @@ public class AiController {
 
         String runId = runResponse.getBody().get("id").toString();
 
-        String status;
-        do {
+        String status = "";
+        int attempts = 0;
+        while (attempts++ < 45) {
             ResponseEntity<Map> runStatus = restTemplate.exchange(
                     "https://api.openai.com/v1/threads/" + threadId + "/runs/" + runId,
                     HttpMethod.GET,
@@ -73,8 +74,14 @@ public class AiController {
                     Map.class
             );
             status = runStatus.getBody().get("status").toString();
+            if (status.equals("completed")) break;
+            if (status.equals("failed") || status.equals("cancelled") || status.equals("expired"))
+                return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
+                        .body("Assistant run ended with status: " + status);
             try { Thread.sleep(1000); } catch (InterruptedException ignored) {}
-        } while (!"completed".equals(status));
+        }
+        if (!"completed".equals(status))
+            return ResponseEntity.status(HttpStatus.GATEWAY_TIMEOUT).body("Assistant run timed out.");
 
         ResponseEntity<Map> messagesResponse = restTemplate.exchange(
                 "https://api.openai.com/v1/threads/" + threadId + "/messages",
