@@ -62,7 +62,6 @@ public class MailgunService {
         } catch (HttpClientErrorException e) {
             logger.error("❌ Failed to send mail. Status: {}", e.getStatusCode());
             logger.error("❌ Response: {}", e.getResponseBodyAsString());
-            // אתה יכול לבחור אם לזרוק Exception או רק ללוגג
             throw e;
         } catch (Exception e) {
             logger.error("❌ General error occurred: {}", e.getMessage(), e);
