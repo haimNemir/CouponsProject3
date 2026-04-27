@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip3 show *)",
+      "Bash(find /usr -name \"git-filter-repo\")",
+      "Read(//c/Users/Haim/**)",
+      "Read(//mnt/c/Users/Haim/AppData/Roaming/Python/Python312/**)",
+      "Bash(python3 -m pip show git-filter-repo)",
+      "Bash(python -m pip install git-filter-repo)",
+      "Bash(python -m git_filter_repo --version)"
+    ]
+  }
+}
