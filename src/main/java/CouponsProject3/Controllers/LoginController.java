@@ -41,7 +41,6 @@ public class LoginController {
             String userAgent = request.getHeader("User-Agent");
             String os = getOS(userAgent);
             String browser = getBrowser(userAgent);
-            String referrer = request.getHeader("Referer");
             LocalDateTime loginTime = LocalDateTime.now();
             String formattedLoginTime = loginTime.format(DateTimeFormatter.ofPattern("dd/MM/yyyy - HH:mm"));
             String location = getGeoLocation(ip);
@@ -53,16 +52,14 @@ public class LoginController {
                             "You can later create a new API key and add it to your application-secret.properties file to re-enable the email service.\n";
 
             String body = String.format(
-                    "שעת התחברות: %s\n" +
+                            "שעת התחברות: %s\n" +
                             "מערכת הפעלה: %s\n" +
                             "דפדפן: %s\n" +
-                            "דף ממנו הגיע: %s\n" +
                             "מיקום גיאוגרפי: %s\n" +
                             "מייל: %s\n" +
                             "IP: %s\n\n" +
                             "%s",
                     formattedLoginTime, os, browser,
-                    (referrer != null ? referrer : "לא ידוע"),
                     location, email, ip, notificationNote
             );
 
